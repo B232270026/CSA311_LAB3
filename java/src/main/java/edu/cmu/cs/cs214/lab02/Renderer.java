@@ -2,7 +2,8 @@ package edu.cmu.cs.cs214.lab02;
 import edu.cmu.cs.cs214.lab02.shapes.Shape;
 
 public class Renderer {
-    private Shape shape;
+    private Shape shape; 
+    // Аль ч Shape ашиглах боломжтой болсон.
     
     public Renderer(Shape shape) {
     this.shape = shape;

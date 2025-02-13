@@ -6,7 +6,7 @@ public class Square implements Shape {
     public Square(double sideLen) {
         this.sideLen = sideLen;
     }
-    
+
     public double getArea() {
         return sideLen * sideLen;
     }

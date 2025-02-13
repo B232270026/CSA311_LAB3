@@ -3,11 +3,12 @@ package edu.cmu.cs.cs214.lab02;
 import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
 
 public class Main {
-    public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(2, 3);
+public static void main(String[] args) {
 
-        Renderer renderer = new Renderer(rectangle);
+    Rectangle rectangle = new Rectangle(2, 3);
 
-        renderer.draw();
-    }
+    Renderer renderer = new Renderer(rectangle);
+    renderer.draw();
+  }
 }
+
